@@ -1,0 +1,53 @@
+body {
+  color: #FFF;
+  margin-top: 2em;
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: #FC0;
+  transition: background .3s ease-in-out;
+}
+
+a {
+  color: #FFF;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+blockquote {
+  background: rgba(255, 255, 255, .3);
+  padding: 2.5em;
+  color: #FFF;
+  font-size: 24px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, .1);
+}
+
+#buttons {
+  margin-bottom: .5em;
+}
+
+.btn.btn-default {
+  border-radius: 0;
+  border: 0;
+  background-color: rgba(255, 255, 255, .4);
+  color: white;
+  font-size: 20px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+  transition: .15s ease-in-out;
+}
+
+.btn.btn-default:hover {
+  background-color: rgba(255, 255, 255, .5);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.btn.btn-default:focus {
+  color: #FFF;
+  outline: 0;
+}
+
+.btn.btn-default:active {
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .2);
+}
